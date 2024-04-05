@@ -108,5 +108,22 @@
     border-color: rgb(235, 158, 13);
 
 }
+.purple {
+    background-color: purple;
+    border-color: rgb(161, 23, 154);
+}
+.round {
+    border-radius: 50%;
+}
+.red {
+    background-color: red;
+    border-color: crimson;
+}
+.green {
+    background-color:green;
+    border-color: rgb(12, 155, 12);
+}
+
+
 
 
