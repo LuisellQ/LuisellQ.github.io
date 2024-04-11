@@ -25,18 +25,30 @@ h3 {
 }
 
 .container-2 {
-   margin-left: auto;
-   margin-right: auto;
-   padding: 48px 0px;
-   text-align: center;
+    min-width: 500px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 48px 0px;
+}
+
+.container-2 img{
+    padding-bottom: 15px;
 }
 
 h2 {
     color: rgb(243, 139, 157);
 }
 .container-3 {
+    min-width: 500px;
+    max-width: 1200px;
     margin-left: auto;
-   margin-right: auto;
-   padding: 48px 0px;
-   text-align: center;
+    margin-right: auto;
+    text-align: center;
+    padding: 48px 0px;
+}
+
+.container-3 img {
+    padding-bottom: 15px;
 }
