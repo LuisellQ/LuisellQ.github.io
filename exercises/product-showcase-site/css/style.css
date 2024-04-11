@@ -28,9 +28,15 @@ h3 {
    margin-left: auto;
    margin-right: auto;
    padding: 48px 0px;
+   text-align: center;
 }
 
 h2 {
-    text-align: center;
     color: rgb(243, 139, 157);
+}
+.container-3 {
+    margin-left: auto;
+   margin-right: auto;
+   padding: 48px 0px;
+   text-align: center;
 }
