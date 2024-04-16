@@ -13,6 +13,7 @@ body {
 
 #sidebar-content {
     width: 250px;
+    margin: 65px;
     padding: 24px;
 }
 
@@ -37,10 +38,7 @@ body {
 #main-content {
     flex: 1;
     padding: 48px;
-}
-
-#main-content-2 p {
-    margin-left: 20px;
+    margin-left: 24px;
 }
 
 #main-content h1 {
@@ -57,3 +55,6 @@ body {
 
 }
 
+#super-mario-2 p {
+    margin-left: 24px;
+}
