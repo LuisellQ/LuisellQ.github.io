@@ -30,7 +30,7 @@ body {
 }
 
 #header #tube {
-    background-color: rgb(140, 10, 10);
+    background-color: rgb(168, 14, 14);
     color: white;
     padding: 4px;
     border-radius: 12px;
@@ -51,9 +51,10 @@ body {
 
 #sidebar ul a {
     text-decoration: none;
-    color: rgb(140, 10, 10);
+    color: black;
     padding: 12px;
     display: block;
+    
 }
 
 #sidebar ul a:hover {
