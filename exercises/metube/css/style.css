@@ -16,9 +16,11 @@ body {
 }
 
 #header {
-    /* background-color: lightskyblue; */
     grid-area: header;
     padding: 0px 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #header a {
@@ -37,7 +39,6 @@ body {
 }
 
 #sidebar {
-    /* background-color: lightcyan; */
     grid-area: sidebar;
     padding: 0px 24px;
 }
@@ -116,10 +117,27 @@ body {
     border-radius: 16px;
 }
 
-.fa-solid  {
+.fa-solid {
     color:  rgb(249, 115, 138);
 }
 
 .fa-brands {
     color:  rgb(249, 115, 138);
+}
+
+#header .fa-solid {
+    margin-inline-end: 16px;
+}
+
+#header img {
+    width: 50px;
+    border-radius: 50px;
+}
+
+#header p {
+    border: 0px solid ;
+    background-color: rgba(250, 239, 241, 0.775);
+    padding: 8px 300px;
+    justify-content: space-between;
+    align-items: center;   
 }
