@@ -30,7 +30,7 @@ body {
 }
 
 #header #tube {
-    background-color: rgb(168, 14, 14);
+    background-color: rgb(249, 115, 138);
     color: white;
     padding: 4px;
     border-radius: 12px;
@@ -58,7 +58,7 @@ body {
 }
 
 #sidebar ul a:hover {
-    background-color: #EEEEEE;
+    background-color:  rgb(250, 236, 238);
     border-radius: 12px;
 }
 
@@ -91,24 +91,35 @@ body {
 
 .metube-item h4 a {
     text-decoration: none;
-    color: #111111;
+    color: black;
     display: block;
 }
 
 .metube-item h4 a:hover {
     text-decoration: underline;
+    color:  rgb(249, 115, 138);
 }
 
 .video-details {
     margin: 8px;
     font-size: 14px;
+    color: black;
 }
 
 .video-channel {
     margin-bottom: 4px;
+    color: black;
 }
 
 .metube-item img {
     width: 337px;
     border-radius: 16px;
+}
+
+.fa-solid  {
+    color:  rgb(249, 115, 138);
+}
+
+.fa-brands {
+    color:  rgb(249, 115, 138);
 }
