@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+         "header main"
+         "content";
+}
+
+#header {
+    grid-area: header;
+    padding: 0px 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#m {
+    color: rgb(233, 13, 13);
+}
+
+#e {
+    color: rgb(239, 207, 46);
+}
+
+#b {
+    color: rgb(41, 58, 243);
+}
+
+#a {
+    color: orange;
+}
+
+#y {
+    color: rgb(97, 181, 97);
+}
