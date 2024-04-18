@@ -9,40 +9,123 @@ body {
 
 #grid-layout {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    margin: 0px 600px 0px;
+    grid-template-columns: 200px 450px 500px;
     grid-template-areas: 
-         "header main"
-         "content";
+        "header header header"
+        "thumbnail product-image product-info  ";
 }
 
 #header {
     grid-area: header;
-    padding: 0px 36px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-#header a {
+#thumbnails {
+    grid-area: thumbnail;
+}
+
+#product-info {
+    grid-area:  product-info;
+}
+
+#product-image {
+    grid-area: product-image;
+}
+
+#header h1 {
+    text-align: left;
+    padding:  0px 50px;
+}
+
+#header h1 a {
     text-decoration: none;
+    font-size: 46px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #m {
-    color: rgb(233, 13, 13);
+    color: rgb(245, 165, 16);
 }
 
 #e {
-    color: rgb(239, 207, 46);
+    color: rgb(230, 6, 6);
 }
 
 #b {
-    color: rgb(41, 58, 243);
+    color: rgb(85, 181, 85);
 }
 
 #a {
-    color: orange;
+    color: rgb(39, 39, 213);
 }
 
 #y {
-    color: rgb(97, 181, 97);
+    color: rgb(188, 13, 188);
+}
+
+.thumbnail img {
+    width: 100px;
+    margin: 3px 30px;
+}
+
+#thumbnails img:hover {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#product-image img {
+    width: 400px;
+}
+
+.seller-info img {
+    width: 50px;
+}
+
+.seller-details a {
+    color: black;
+}
+
+#seller-info-box .seller-info {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.price {
+    font-size: 30px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.best-offer {
+    opacity: 50%;
+}
+
+.condition {
+    padding-top: 20px;
+}
+
+.condition span {
+    font-weight: bold;
+}
+
+.buttons  a {
+   display: block;
+   margin: 16px 0px;
+   padding: 12px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 18px;
+   border: 1px solid #0053a0;
+   border-radius: 100px;
+   
+}
+
+.blue {
+    background-color: #0053a0;
+    color: white;
+}
+
+.white {
+    color: #0053a0;
 }
