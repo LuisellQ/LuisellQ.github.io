@@ -9,11 +9,10 @@ body {
 
 #grid-layout {
     display: grid;
-    margin: 0px 600px 0px;
-    grid-template-columns: 200px 450px 500px;
+    grid-template-columns: 1fr 250px 450px 500px 1fr;
     grid-template-areas: 
-        "header header header"
-        "thumbnail product-image product-info  ";
+        ". header header header ."
+        ". thumbnail product-image product-info .  ";
 }
 
 #header {
