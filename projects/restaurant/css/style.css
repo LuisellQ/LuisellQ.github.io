@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 14vh;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    margin-right: 100px;
+    font-size: 12px;
+}
+
+#navbar img {
+    width: 200px;
+}
+
+#navbar #logo {
+    flex: 1;
+}
+
+#navbar .cta-button {
+    background-color: #ddd326;
+    color: black;
+    border-radius: 20px;
+    padding: 15px;
+    width: 20vw;
+}
+
+#navbar {
+    position: sticky;
+    top: 0px;
+}
+
+#hero-1 {
+    background: 
+        linear-gradient(#ffffff44, #ffffff44),
+        url("../images/pexels-roman-odintsov-4552127.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+#hero-1 h1 {
+    padding-left: 18vw;
+    font-size: 4vw;
+    margin-top: 8%;
+    text-align: left;
+    color:   black;
+}
+
+#hero-1 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    border: 3px solid  #ddd326;
+    background-color: #ddd326;
+    text-decoration: none;
+    padding: 24px;
+    color: black;
+    margin: 65vh 45vw 0px 0px;
+    border-radius: 20px;
+}
+
+.spacer {
+    height: 20vh;
+}
