@@ -61,3 +61,10 @@ body {
     color: white;
     padding: 3px;
 }
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+       " .grid-image grid-image";
+}
