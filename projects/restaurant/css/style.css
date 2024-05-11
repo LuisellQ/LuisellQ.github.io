@@ -20,7 +20,6 @@ body {
     color: white;
     padding: 24px;
     margin-right: 100px;
-    font-size: 12px;
 }
 
 #navbar img {
@@ -29,6 +28,7 @@ body {
 
 #navbar #logo {
     flex: 1;
+    size: 24px;
 }
 
 #navbar .cta-button {
@@ -47,7 +47,7 @@ body {
 #hero-1 {
     background: 
         linear-gradient(#ffffff44, #ffffff44),
-        url("../images/pexels-roman-odintsov-4552127.jpg");
+        url("../images/pexels-olenkabohovyk-3323682.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -69,8 +69,7 @@ body {
 #hero-1 a {
     font-size: 1.5vw;
     display: inline-block;
-    border: 3px solid  #ddd326;
-    background-color: #ddd326;
+    border: 3px solid black;
     text-decoration: none;
     padding: 24px;
     color: black;
@@ -79,8 +78,9 @@ body {
 }
 
 #main-section {
-    padding: 48px;
+    margin-left: 40px;
 }
+
 
 .side-by-side {
     display: flex;
@@ -108,13 +108,14 @@ body {
 
 .side-by-side .text-container p {
     font-size: 22px;
+    text-align: center;
 }
 
 .side-by-side .text-container a {
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
-    border: 2px solid #e213a8;
+    border: 2px solid #09b68c;
     padding: 20px 40px;
     display: inline-block;
     color: black;
@@ -122,28 +123,35 @@ body {
     margin: 3vh 20vw;
 
 }
+/* pseudo-class selector */
+.side-by-side .text-container a:hover {
+    background-color: transparent;
+    color: #05a17a;
+}
 
 #header h1 {
     text-align: center;
     font-size: 50px;
+    margin-bottom: 15vh;
 }
 
 #centered-column {
     width: 90vw;
-    max-width: 800px;
-    margin: 48px 0px;
+    max-width: 1600px;
+    margin: 48px auto;
     display: flex;
-    flex-wrap: wrap;
     gap: 36px;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .card {
     width: 500px;
-    border: 2px solid #e213a8;
+    border: 2px solid #09b68c;
     box-shadow: -1px 1px 7px rgba(0, 0, 0, 0.481);
     display: flex;
     flex-direction: column;
+    margin-bottom: 10%;
 }
 
 .card img {
@@ -154,4 +162,83 @@ body {
 
 .card h2 {
     text-align: center;
+}
+
+#footer {
+    background-color: #ddd326;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    width: 250px;
+    padding: 24px 0px 24px;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-content ul li {
+    padding: 7px ;
+}
+
+.footer-content h4 {
+    font-size: 14px;
+    margin: 0px -10vw;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+ 
+#social-media h4 {
+   text-align: end;
+   margin-top: -60px;
+   margin-right: 30px;
+}
+
+#social-media a {
+    color: #e213a8;
+    text-decoration: none;
+}
+
+#social-media-2 h4 {
+    text-align: end;
+    margin-top: -70px;
+    margin-right: 30px;
+}
+ 
+ #social-media-2 a {
+     text-decoration: none;
+     color: #e213a8;
+}
+
+/* TABLET BREAKPOINT */
+@media screen and (max-width: 768px) and (min-width:481px){
+
+}
+
+
+/* MOBILE BREAKPOINT */
+@media screen and (max-width: 480px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
 }
