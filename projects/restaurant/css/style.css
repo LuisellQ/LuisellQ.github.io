@@ -98,6 +98,7 @@ body {
 
 .side-by-side .image-container img {
     width: 700px;
+    margin-left: 20%;
 }
 
 .side-by-side .text-container h2 {
@@ -226,19 +227,4 @@ body {
  #social-media-2 a {
      text-decoration: none;
      color: #e213a8;
-}
-
-/* TABLET BREAKPOINT */
-@media screen and (max-width: 768px) and (min-width:481px){
-
-}
-
-
-/* MOBILE BREAKPOINT */
-@media screen and (max-width: 480px) {
-    #navbar {
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-    }
 }
